@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:twlx_bull/Account.dart';
-import 'package:twlx_bull/Page1.dart';
-import 'package:twlx_bull/Transaction.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
@@ -13,9 +10,11 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   int _currentindex = 0;
   final Screen = [
-    page1(),
-    Transaction(),
-    Account(),
+    Text("page 1"),
+    Text("page 2"),
+    Text("page 3"),
+
+
   ];
   @override
   Widget build(BuildContext context) {
